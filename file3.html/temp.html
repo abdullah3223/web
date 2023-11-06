@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid_it{
+            margin: 50px 80px 50px 80px;
+            background-color: blueviolet;
+            padding: 10px 20px 10px 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 30px;
+        }
+        .flex_it{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+        }
+        #change_border_of_input{
+            margin-bottom: 19px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+   
+        <div class="grid_it">
+            <div class="home_first_column ">
+
+                <div>Home Comfort</div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eos corporis, atque non neque odit
+                    iste dignissimos earum error quaerat fugit quasi aspernatur natus accusamus quisquam, inventore
+                    nihil amet maiores!</div>
+            </div>
+            <div class="second_column flex_it">
+                <div>Home</div>
+                <div>Services</div>
+                <div>Contact Us</div>
+            </div>
+            <div class="thirs_column flex_it">
+
+                <div>Facebook</div>
+                <div>Twitter</div>
+                <div>Linkedin</div>
+                <div>Intagtram</div>
+            </div>
+            
+            <div class="forth_column flex_it">
+                <div>Phone Number</div>
+                <div>Email</div>
+                <div><input type="text" id="change_border_of_input"></div>
+            </div>
+        </div>
+
+  
+</body>
+
+</html>

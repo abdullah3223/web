@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .leftcon span{
+            color: greenyellow;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           background-color:#fff;
+           height: 30px;
+          
+            }
+            .centercon div:hover{
+                color: aliceblue;
+                background-color: grey;
+            }
+            .leftcon{
+            
+                height: 30px;
+                margin-left: 25px ;
+                margin-top: 7px;
+                    }
+            
+            .centercon{
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            color: black;
+           align-items: center;
+           height:100%;
+            }
+            .rightcon{
+                width: 50px;
+                display: flex;
+                margin-right: 25px;
+                align-items: center;
+               
+            }
+    </style>
+   <body>
+    <div class="container">
+        <div class="leftcon">
+       Coding <span>Market</span>
+        </div>
+        <div class="centercon">
+            <button><div> HOME</div></button>
+         <button><div>ABOUT</div></button>
+         <button><div>CONTACT</div></button>
+        <button><div>SERVICES</div></button>
+         <button><div>PROFILE</div></button>
+         
+        </div>
+        <div class="rightcon"> 
+            <button>
+                logout
+            </button>
+        </div>
+       
+
+    </div>
+   
+</body>
+</html>

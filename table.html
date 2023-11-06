@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+ function runit(a){
+    document.getElementById("inputData").value +=a;
+
+//     document.getElementById("inputData").value = document.getElementById("inputData").value + a;
+ }
+    </script>
+
+    <style>
+button{
+    background-color: aqua;
+}
+input{
+    width: 123px;
+    border: 2px solid black;
+}
+
+      h1,h2, th,table,td{
+       border: 2px solid black;;
+       } 
+    </style>
+</head> 
+<body>
+ <center>
+    <input type="text" id="inputData">
+
+    <table>
+
+        <tr>
+<td><button onclick="runit(1)">1</button></td>
+<td><button onclick="runit(2)">2</button></td>
+<td><button onclick="runit(3)">3</button></td>
+<td><button onclick="runit('+')">+</button></td>
+</tr>
+<tr>
+<td><button onclick="runit(4)">4</button></td>
+<td><button  onclick="runit(5)">5</button></td>
+<td><button onclick="runit(6)">6</button></td>
+<td><button style="width: 24px;" onclick="runit('-')">-</button></td>
+</tr>
+<tr>
+<td><button onclick="runit(7)">7</button></td>
+<td><button onclick="runit(8)">8</button></td>
+<td><button onclick="runit(9)">9</button></td>
+<td><button style="width: 24px;" onclick="runit('/')">/</button></td>
+</tr>
+<!-- <tr>
+<td><button onclick="runit(0)">0</button></td>
+<td><button onclick="runit(9)">9</button></td>
+<td><button onclick="runit(8)">8</button></td>
+<td><button onclick="runit('x')">x</button></td>
+</tr> -->
+<tr>
+<td><button onclick="runit(1)">1</button></td>
+<td><button onclick="runit(2)">2</button></td>
+<td><button onclick="runit(3)">3</button></td>
+<td><button onclick="runit('=')">=</button></td>
+
+</tr>
+
+
+
+</tr>
+
+
+
+
+
+          </tr>
+        
+
+</table>
+ </center>
+
+</body>
+</html>
